@@ -27,3 +27,4 @@ jobs:
         args: apply -f deployment.yaml
         env:
           KUBECONFIG: ${{ env.KUBECONFIG }}
+
